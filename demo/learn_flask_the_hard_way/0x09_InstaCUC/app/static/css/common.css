@@ -1,0 +1,34 @@
+.dropzone {
+    border: 2px dashed #0087f7;
+    border-radius: 5px;
+    background: white;
+}
+
+#user-menu {
+    width: auto;
+}
+
+.content-wrapper {
+    /* background-color: #d372fa; */
+    background: url(./星星2.jpg);
+}
+
+.blog-post {
+    border-radius: 3px;
+    border: 1px solid #efefef;
+}
+
+.blog-post p {
+    margin: 10px 10px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+#inputFile {
+    font-size: larger;
+    color: darkslateblue;
+    font-family: 楷体;
+}

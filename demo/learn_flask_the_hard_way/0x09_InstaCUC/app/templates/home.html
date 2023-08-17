@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block content -%}
+<div class="row" style="padding-top: 10px;margin-bottom: 10px;border-radius: 3px;border: 1px solid #b397f5;background-color: rgba(165, 140, 255, 0.418);font-family: 楷体;">
+    <div class="col-md-12">
+        <form action="/api/posts" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <textarea name="text" class="form-control" rows="3" placeholder="输入 ..."></textarea>
+            </div>
+            <div class="form-group" style="font-family: 楷体;">
+                <input name="image" type="file" id="inputFile" />
+            </div>
+
+            <div class="form-group pull-right">
+                <button type="submit">提交</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="posts" class="row" style="flex-direction: column;font-family:Futura LT Book;color: rgb(14, 86, 240); background-color: rgb(150, 207, 209);font-family: 'Times New Roman', 楷体;font-weight:bold;font-size: large;">
+
+</div>
+{%- endblock content %}
